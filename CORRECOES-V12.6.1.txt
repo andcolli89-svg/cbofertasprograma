@@ -1,0 +1,15 @@
+CbOfertas V12.6.1
+
+AFILIADO
+- meli.la entra ativo automaticamente no Lote.
+- CBF Captura prioriza shortUrl.
+- procura meli.la dentro da mensagem caso shortUrl falte.
+- migra lote já salvo.
+
+IMPORTADOR CBF
+- corrige leitura de { cbfToCbOfertas: 1, data: { queue, savedOffers } }
+- aceita backup antigo
+- aceita history como fallback
+
+IMPORTANTE
+- URL normal do Mercado Livre não é tratada como afiliado sem um meli.la real.

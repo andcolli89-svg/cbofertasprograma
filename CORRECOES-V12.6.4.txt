@@ -1,0 +1,10 @@
+CbOfertas V12.6.4
+
+CORREÇÃO PRINCIPAL
+- após o envio automático no WhatsApp/WhatsApp Business, o serviço usa GLOBAL_ACTION_BACK para voltar;
+- em seguida traz explicitamente o CbOfertas para frente;
+- há uma segunda tentativa automática se o WhatsApp continuar em primeiro plano;
+- o retorno não dispara um segundo BACK quando o CbOfertas já voltou, evitando sair do aplicativo;
+- atraso padrão de retorno aumentado para 1,8 s para dar tempo de o WhatsApp concluir o envio.
+
+Mantém as correções da V12.6.3, inclusive importação de fotos do CBF.

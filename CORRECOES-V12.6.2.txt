@@ -1,0 +1,15 @@
+CbOfertas V12.6.2
+
+PROBLEMA CORRIGIDO:
+- primeira mensagem envia
+- segunda abre "Enviar para..."
+- grupo fica visível, mas não é tocado
+
+NOVO FLUXO:
+- busca exata do grupo
+- busca tolerante sem emoji/acentos/pontuação
+- usa contêiner inteiro da linha
+- após um clique confirmado, guarda X/Y como "último grupo OK"
+- próximas mensagens usam primeiro a coordenada que já funcionou
+- mantém calibração como fallback
+- memoriza também o botão Enviar

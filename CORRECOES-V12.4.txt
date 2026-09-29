@@ -1,0 +1,17 @@
+CbOfertas V12.4
+
+CORREÇÃO CRÍTICA:
+- android:canPerformGestures=true no AccessibilityService.
+- inclui views não importantes e mais eventos de acessibilidade.
+- diagnóstico informa se gestos foram realmente liberados.
+- após instalar, é obrigatório desligar e ligar o serviço de acessibilidade.
+
+LOTE:
+- formatação automática com emojis.
+- chamada em destaque.
+- produto.
+- preço antigo e novo.
+- cupom.
+- loja.
+- link.
+- link afiliado confirmado somente por Usar link copiado.

@@ -1,0 +1,19 @@
+CbOfertas V12.5
+
+FOTOS
+- Busca automática após colagem em lote.
+- Resolve meli.la até a página final.
+- Lê og:image/twitter:image.
+- Foto salva no anúncio.
+- Buscar fotos faltantes.
+- Buscar foto individual.
+
+WHATSAPP
+- Compartilha foto + texto pelo WhatsApp Business.
+- Usa FileProvider e cache privado.
+- Piloto de Acessibilidade seleciona grupo e Enviar.
+- Oferta sem foto é bloqueada no envio individual do Lote.
+
+IMPORTANTE
+- Algumas páginas do Mercado Livre podem bloquear a extração.
+- Nesses casos o anúncio fica marcado como sem foto e pode ser tentado novamente.

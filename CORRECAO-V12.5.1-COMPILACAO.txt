@@ -1,0 +1,3 @@
+Corrigido MainActivity.java:
+ANTES: jobId == null ? String(now) : jobId
+DEPOIS: jobId == null ? String.valueOf(now) : jobId

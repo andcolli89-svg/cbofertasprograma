@@ -1,0 +1,10 @@
+CbOfertas V12.6.5 — recuperação da seleção do grupo
+
+- não prioriza mais last_good_group_x/y no WhatsApp;
+- procura o grupo pelo nome antes de usar coordenadas;
+- coordenada calibrada virou fallback no modo híbrido;
+- toque não confirmado invalida coordenadas antigas;
+- mínimo de 5 tentativas para seleção do grupo;
+- falha de seleção é classificada como recuperável;
+- CbOfertas volta, reabre o mesmo envio e tenta novamente até 3 ciclos;
+- uma falha temporária de seleção não desliga imediatamente toda a fila.

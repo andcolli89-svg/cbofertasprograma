@@ -1,0 +1,5 @@
+CbOfertas V12.6.3
+
+- importa fotos incorporadas exportadas pelo CBF Ofertas;
+- aceita imagem em data URL/base64 no envio para o WhatsApp;
+- continua aceitando image/imageUrl comuns.

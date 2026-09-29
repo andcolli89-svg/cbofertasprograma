@@ -1,0 +1,36 @@
+CbOfertas 12.6.6 — Busca automática de afiliado
+
+COMO USAR
+1. Compile e instale o APK atualizado (o ZIP contém código-fonte).
+2. Ative "Piloto Automático CbOfertas" em Configurações > Acessibilidade.
+3. No aplicativo Mercado Livre, entre na sua conta de afiliado.
+4. Pare o piloto de envios durante a busca de links.
+5. Adicione as ofertas ao lote.
+6. Toque em "Buscar link do Mercado Livre" em uma oferta, ou em
+   "Buscar links do Mercado Livre — pendentes" para processar as pendentes em sequência.
+7. O app abre o Mercado Livre, toca "Ir para o produto" quando presente,
+   toca "Ganhos" e "Copiar link", volta ao CbOfertas e aplica o link com a
+   mesma confirmação do botão "Usar link copiado".
+8. O anúncio fica pronto para você adicionar à fila ou compartilhar.
+
+O telefone deve ficar desbloqueado durante a sequência. Não altere a área de
+transferência nem navegue para outro produto durante a busca.
+A busca não envia o anúncio automaticamente.
+
+Se o botão não aparecer, se o produto não permitir afiliação ou se houver
+pedido de login, a busca para com um erro e não libera a oferta.
+Os cliques usam os nomes acessíveis dos botões; um ícone de ganhos sem nome
+acessível precisará de adaptação à tela real. O timeout é de 30 segundos por
+etapa e 90 segundos no total. Para interromper, volte ao CbOfertas e toque
+"Cancelar busca de links". Os links restantes deixam de ser processados.
+
+COMPILAÇÃO
+O workflow .github/workflows/build-apk.yml gera o APK 12.6.6 com Java 17,
+Android SDK 35 e Gradle 8.9. Também é possível usar Android Studio.
+Instale como atualização usando a mesma assinatura do APK anterior para
+preservar os dados. Não desinstale sem exportar os lotes e a fila.
+
+VALIDAÇÃO
+Testes locais verificam JavaScript, integração e sintaxe Java.
+A compilação APK e os cliques na versão instalada do Mercado Livre ainda
+precisam ser validados no Android; este ambiente não possui SDK Android.

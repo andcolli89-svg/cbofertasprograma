@@ -1,0 +1,21 @@
+CbOfertas V12.6
+
+CENTRAL:
+- substitui métricas sem utilidade operacional.
+
+LOTE:
+- exportar
+- importar
+- embaralhar
+- importar backup CBF Captura
+
+AUTOMAÇÃO:
+- verifica se o WhatsApp realmente selecionou o destino antes do clique Enviar
+- se a seleção não confirmar, tenta novamente
+- envio preso por mais de 90 s volta para pendente
+
+CBF CAPTURA:
+- reconhece backup com cbfOfertasBackup
+- importa data.queue e data.savedOffers
+- fila tem prioridade
+- duplicados são removidos
